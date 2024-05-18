@@ -20,19 +20,17 @@ body {
 }
 
 .game-img {
-  width: 50px;
+  width: 80px;
 }
 
 .clear-btn {
-  background: transparent;
-  width: 150px;
-  height: 150px;
+  background: none;
   border: 3px solid white;
-  border-radius: 75px;
-  margin-right: 10px;
+  font-size: 15px;
+  padding: 8px 15px;
   cursor: pointer;
   color: white;
-  font-size: 50px;
+  border-radius: 10px;
 }
 .clear-btn:hover {
   background-color: rgb(24, 24, 24);
