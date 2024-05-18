@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.game-btn {
+  background: transparent;
+  width: 150px;
+  height: 150px;
+  border: 3px solid white;
+  border-radius: 75px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.game-btn:hover {
+  background-color: rgb(24, 24, 24);
+}
+
+.game-img {
+  width: 50px;
+}
+
+.clear-btn {
+  background: transparent;
+  width: 150px;
+  height: 150px;
+  border: 3px solid white;
+  border-radius: 75px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 50px;
+}
+.clear-btn:hover {
+  background-color: rgb(24, 24, 24);
+}

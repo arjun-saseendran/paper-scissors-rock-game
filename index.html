@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Rock Paper Scissors Game</p>
+    <button onclick="handleChange('Rock')" class="game-btn">
+      <img class="game-img" src="images/rock.png" alt="rock-image" />
+    </button>
+    <button onclick="handleChange('Paper')" class="game-btn">
+      <img class="game-img" src="images/paper.png" alt="paper-image" />
+    </button>
+    <button onclick="handleChange('Scissors')" class="game-btn">
+      <img class="game-img" src="images/scissors.png" alt="scissors-image" />
+    </button>
+    <button onclick="clearScreen()" class="clear-btn">Clear</button>
+    <p id="display">Welcome to the Game!</p>
+    <p id="pick"></p>
+    <p id="score-card"></p>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
