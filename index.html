@@ -4,25 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
-    <title>Document</title>
+    <title>Rock Paper Scissors Game</title>
   </head>
   <body>
-    <p>Rock Paper Scissors Game</p>
-    <button onclick="handleChange('Rock')" class="game-btn">
-      <img class="game-img" src="images/Rock.png" alt="rock-image" />
-    </button>
-    <button onclick="handleChange('Paper')" class="game-btn">
-      <img class="game-img" src="images/Paper.png" alt="paper-image" />
-    </button>
-    <button onclick="handleChange('Scissors')" class="game-btn">
-      <img class="game-img" src="images/Scissors.png" alt="scissors-image" />
-    </button>
-
-    <p id="display">Welcome to the Game!</p>
-    <p id="pick"></p>
-    <p id="score-card"></p>
-    <button onclick="clearScreen()" class="clear-btn">Clear</button>
-
+    <main>
+      <div id="heading"><p>Rock Paper Scissors Game</p></div>
+    <div id="button">
+      <button id="rock-btn" class="game-btn">
+        <img class="game-img" src="images/rock.png" alt="rock-image" />
+      </button>
+      <button id="paper-btn" class="game-btn">
+        <img class="game-img" src="images/paper.png" alt="paper-image" />
+      </button>
+      <button id="scissors-btn" class="game-btn">
+        <img class="game-img" src="images/scissors.png" alt="scissors-image" />
+      </button>
+    </div>
+    
+    <div id="welcome"> <p id="title">Welcome to the Game!</p></div>
+   <div id="display">
+    <p id="selected"></p>
+    <p id="score-board"></p>
+   </div>
+    <div id="controls">
+    <button onclick="clearScreen()" class="reset-btn">Reset</button>
+    <button onclick="cardView()" class="score-btn">Score</button>
+    <button onclick="autoPlay()" class="auto-btn">Auto Play</button>
+  </div>
+  </main>
     <script src="scripts/script.js"></script>
   </body>
 </html>

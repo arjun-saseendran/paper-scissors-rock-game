@@ -5,6 +5,18 @@ body {
   font-size: 30px;
   font-weight: bold;
 }
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 5px;
+  width: 500px;
+  height: 600px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+}
 
 .game-btn {
   background: transparent;
@@ -15,7 +27,7 @@ body {
   margin-right: 10px;
   cursor: pointer;
 }
-.game-btn:hover {
+.game-btn:hover, .score-btn:hover, .auto-btn:hover, .reset-btn:hover  {
   background-color: rgb(24, 24, 24);
 }
 
@@ -23,7 +35,9 @@ body {
   width: 80px;
 }
 
-.clear-btn {
+.reset-btn,
+.score-btn,
+.auto-btn {
   background: none;
   border: 3px solid white;
   font-size: 15px;
@@ -31,7 +45,4 @@ body {
   cursor: pointer;
   color: white;
   border-radius: 10px;
-}
-.clear-btn:hover {
-  background-color: rgb(24, 24, 24);
 }
