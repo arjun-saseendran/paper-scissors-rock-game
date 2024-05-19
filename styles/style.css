@@ -35,9 +35,13 @@ main{
   width: 80px;
 }
 
+<<<<<<< HEAD
 .reset-btn,
 .score-btn,
 .auto-btn {
+=======
+.clear-btn {
+>>>>>>> fb3039941574dbb36779b1cb8aeae345c2987065
   background: none;
   border: 3px solid white;
   font-size: 15px;
@@ -45,4 +49,10 @@ main{
   cursor: pointer;
   color: white;
   border-radius: 10px;
+<<<<<<< HEAD
+=======
+}
+.clear-btn:hover {
+  background-color: rgb(24, 24, 24);
+>>>>>>> fb3039941574dbb36779b1cb8aeae345c2987065
 }
